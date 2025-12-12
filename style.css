@@ -33,4 +33,39 @@ body {
 }
 .stat {
     padding-right: 10px;
+} 
+
+
+
+/* 📱 Mobile Styles */
+@media (max-width: 600px) {
+
+    #game {
+        max-width: 100%;
+        padding: 15px;
+    }
+
+    #text {
+        font-size: 1.1rem;
+        padding: 14px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+        margin-top: 10px;
+        font-size: 1.1rem;
+        border-radius: 6px;
+    }
+
+    #controls, #stats, #monsterStats {
+        font-size: 1rem;
+        padding: 12px;
+    }
+
+    .stat {
+        display: block;
+        margin-bottom: 8px;
+        padding: 0;
+    }
 }
